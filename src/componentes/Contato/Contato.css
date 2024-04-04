@@ -1,0 +1,5 @@
+/* Contato.css */
+.footer {
+    @apply bg-gray-900 text-white py-2 text-center mt-4 text-sm;
+  }
+  

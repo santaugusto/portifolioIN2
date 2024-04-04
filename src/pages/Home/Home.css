@@ -1,0 +1,45 @@
+
+.main {
+    @apply flex flex-col;
+}
+
+.ladoEsquerdo {
+    @apply w-full p-0;
+    z-index: 999;
+}
+
+.mensagem {
+    @apply flex flex-col justify-center items-center;
+}
+
+.equipe {
+    @apply text-white mt-4 font-bold text-4xl font-heading;
+}
+
+.h1 {
+    @apply text-white w-11/12 mt-4 mb-8 font-semibold text-left;
+}
+
+.span {
+    @apply text-red-600;
+}
+
+.texto {
+    @apply w-11/12 text-white mb-8 text-left;
+}
+
+.ladoDireito {
+    @apply p-0 overflow-visible;
+}
+
+.retanguloLaranja {
+    @apply relative w-full h-[100vw/12*9] bg-gradient-to-b from-transparent to-red-600;
+}
+
+.image {
+    @apply absolute inset-0 object-cover;
+}
+
+.caixaBnt {
+    @apply w-full h-[100vw/12*9] flex flex-wrap justify-evenly;
+}
